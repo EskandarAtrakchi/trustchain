@@ -167,7 +167,7 @@ export default function IssueCertificateForm({ issuerAddress, onSuccess }: Issue
               type="text"
               value={studentName}
               onChange={(e) => setStudentName(e.target.value)}
-              placeholder="e.g., John Doe"
+              placeholder="e.g., Eskandar Atrakchi"
               className="w-full px-3 py-2 border border-border rounded-md bg-input text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
