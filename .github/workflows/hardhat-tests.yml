@@ -2,10 +2,9 @@ name: Hardhat Tests
 
 on:
   push:
-    branches: ["**"]   # runs on any branch
+    branches: ["**"]
   pull_request:
-  workflow_dispatch:   # ✅ THIS ENABLES MANUAL BUTTON
-
+  workflow_dispatch:   
 jobs:
   test:
     runs-on: ubuntu-latest
